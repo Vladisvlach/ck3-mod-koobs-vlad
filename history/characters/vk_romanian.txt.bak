@@ -1,0 +1,12 @@
+vk_romanian_1 = { #https://en.m.wikipedia.org/wiki/Nikoulitzas_Delphinas
+	name = "Nikoulitzas"
+	dynasty = vk_delphinas	#Delphinas
+	religion = "orthodox"
+	culture = "vlach"
+	1048.5.10 = {
+		birth = "1048.5.10"
+	}
+	1066.8.3 = {
+		death = "1066.8.3"
+	}
+}

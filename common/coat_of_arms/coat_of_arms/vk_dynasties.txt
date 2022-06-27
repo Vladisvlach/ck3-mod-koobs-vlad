@@ -1,0 +1,23 @@
+644 = { #Makedon / Macedonian Dynasty
+	pattern="pattern_solid.dds"
+	color1=rgb { 11 23 62 }
+	color2=blue
+	color3=white
+	colored_emblem={
+		color1=yellow
+		color2=white
+		texture="ce_star_16.dds"
+	}
+}
+
+vk_delphinas = { #Delphinas Dynasty, literal dolphin
+	pattern="pattern_solid.dds"
+	color1=rgb { 11 23 62 }
+	color2=blue
+	color3=white
+	colored_emblem={
+		color1=yellow
+		color2=white
+		texture="ce_star_16.dds"
+	}
+}

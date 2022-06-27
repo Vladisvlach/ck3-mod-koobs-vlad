@@ -1,0 +1,15 @@
+﻿l_english:
+ ############################################################
+ # Prefixes
+ ############################################################
+ #Albanian / Arberian prefix
+ dynnp_e:0 "e "
+
+ ############################################################
+ # Names
+ ############################################################
+ # Arberian / Albanian
+ dynn_Arberian:0 "Arberian"
+ dynn_Kastrioti:0 "Kastrioti"
+ #Romanian
+ dynn_Delphinas:0 "Delphinas"

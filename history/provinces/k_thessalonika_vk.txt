@@ -1,0 +1,44 @@
+#k_thessalonika
+##d_thessaly ###################################
+###c_thessalia
+489 = {		#Thessalia
+	#culture = greek
+	culture = vlach
+	religion = orthodox
+	holding = castle_holding
+	#1205 - 4th crusade, kingdom of Thessaloniki
+	#1225 - To the despotate of Epirus and Serbian empire
+	#1393 - Conquest by the Ottomans
+	#1402 - Byzantine rule, restored
+	#1430 - Conquest by the Ottomans
+}
+3786 = {	#Platamon
+	holding = castle_holding
+}
+3787 = {	#Servia
+	holding = city_holding
+}
+3788 = {	#Elasson aka Elassona
+	holding = church_holding
+}
+
+###c_thessaliotis
+3797 = {	#Trikala
+	#culture = greek
+	culture = vlach
+	religion = orthodox
+	holding = castle_holding
+}
+3795 = {	#Grevena
+	holding = none
+}
+3796 = {	#Stagoi
+	holding = none
+	900.1.1 = {
+		holding = church_holding
+		#First mention in Xth
+	}
+}
+3570 = {	#Pharsalos aka Farsala
+	holding = city_holding
+}

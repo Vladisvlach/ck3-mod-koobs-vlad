@@ -1,0 +1,68 @@
+#k_epirus
+##d_dyrrachion ###################################
+###c_dyrrachion
+470 = {		#Dyrrachion
+	culture = arberian
+	religion = orthodox
+	holding = castle_holding
+	1066.1.1 = {
+		buildings = {
+			curtain_walls_01
+			barracks_01
+			military_camps_01
+		}
+	}
+}
+3717 = {	#Savra / near modern day Lushnjë
+	holding = none
+}
+
+###c_arbanon
+3720 = {	#Krujë
+	culture = arberian
+	religion = orthodox
+	holding = castle_holding
+}
+3718 = {	#Mat
+	holding = none
+}
+3719 = {	#Lezhë AKA Lezha
+	holding = city_holding
+}
+3721 = {	#Hiskampis AKA Elbasan
+	holding = none
+	#Destroyed by bulgarians, then unsettled until ottomans arrival
+}
+
+###c_debar
+3724 = {	#Debar
+	culture = arberian
+	religion = orthodox
+	holding = castle_holding
+}
+3723 = {	#Peshkopi
+	holding = church_holding
+}
+3722 = {	#Kukes
+	holding = none
+}
+
+###c_antipatreia / Albanian Toskeria
+3713 = {	#Antipatreia
+	culture = arberian
+	religion = orthodox
+	holding = castle_holding
+}
+3714 = {	#Skrapar
+	holding = city_holding
+}
+3715 = {	#Argyrokastron
+	holding = castle_holding
+}
+3716 = {	#Klisura / Këlcyrë
+	holding = none
+	#Some mention in 1272
+}
+3520 = {	#Blagajgrad
+	holding = none
+}

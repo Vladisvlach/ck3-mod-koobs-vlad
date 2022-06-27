@@ -1,0 +1,91 @@
+#k_croatia
+##d_dalmatia ###################################
+###c_zadar
+465 = {		#Zadar
+	culture = dalmatian
+	religion = orthodox
+	holding = castle_holding
+	1066.1.1 = {
+		culture = croatian
+		religion = catholic
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			curtain_walls_01
+		}
+	}
+}
+3545 = {	#Nin
+	holding = city_holding
+	#Settled in the beginning of the VIIth, 1st Croatian royal town
+}
+3547 = {	#Biograd (na Moru)
+	holding = church_holding
+	#church built in VIth, basilica based off of it in IXth
+}
+3546 = {	#Obrovac
+	holding = none
+	#created in 1337 ?
+}
+
+###c_cetina
+3551 = {	#Sinj / c_sinjcroat
+	culture = dalmatian
+	religion = orthodox
+	holding = castle_holding
+	1066.1.1 = {
+		culture = dalmatian
+		religion = catholic
+	}
+}
+467 = {		#Split
+	holding = city_holding
+	#Veeeeery old settlement
+}
+3552 = {	#Solin
+	holding = church_holding
+	#Old city
+	#Set as church_holding to have all 3 holding types
+	#Out of the 3, seems the most appropriate for church_holding, as it's tied with apostles, monasteries and whatnot
+}
+
+##d_croatia ###################################
+
+###c_cherso
+2521 = {	#Cherso / Cres
+	culture = dalmatian
+	religion = orthodox
+	holding = castle_holding
+	1066.1.1 = {
+		culture = croatian
+		religion = catholic
+	}
+}
+459 = {		#Krk / Veglia
+	holding = city_holding
+	#Pretty old city
+}
+
+
+##d_ragusa ###################################
+###c_ragusa
+468 = {		#Ragusa
+	culture = dalmatian
+	religion = orthodox
+	holding = castle_holding
+	#Commented the history
+	#870.1.1 = {
+		#religion = orthodox
+		#Serbs convert in 870
+	#}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			pastures_01
+		}
+	}
+}
+3569 = {	#Ston
+	holding = city_holding
+}

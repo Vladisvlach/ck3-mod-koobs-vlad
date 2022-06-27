@@ -1,0 +1,27 @@
+#k_serbia
+##d_rashka ###################################
+
+###c_hvosno #Kosovo
+3596 = {	#Priština
+	culture = arberian
+	religion = orthodox
+	holding = castle_holding
+}
+3597 = {	#Prizren
+	holding = city_holding
+	#Important city, already from roman times
+}
+3595 = {	#Pec
+	holding = church_holding
+	#Set as church_holding to have all 3 holding types
+}
+3594 = {	#Zvecan
+	holding = none
+	#1st mention around 1090
+	1090.1.1 = {
+		holding = city_holding
+	}
+}
+3593 = {	#Podujevo
+	holding = none
+}

@@ -1,0 +1,23 @@
+﻿name_list_arberian = {
+
+	cadet_dynasty_names = {
+		"dynn_Arberian"
+		"dynn_Kastrioti"
+	}
+
+	dynasty_names = {
+		"dynn_Arberian"
+		"dynn_Kastrioti"
+	}
+
+	male_names = {
+		Adnan Afrim Agim Agon Alban Alek Aleksander_Alexander Andrea_Andrew Ardian Ardit Arianit Armend Bajram Bashkim Behar Besian Besnik Blerim Bua Burim Dardan Depa Dhimitër Dimitri Dritan Dëfrim Edon Endrit Engjëll Fatmir Fisnik Flamur Gjergj Gjin Gjon Gojko Grigor_Gregory Gulam Jakub_Jacob Jetmir Jeton Koja Kostandin_Constantine Kreshnik Kushtrim Leka Lekë Leotrim Leutrim Liridon Lulëzim Moisi Muriq Muzaka Pal Perparim Pjetër_Peter Progon Pëllumb Skender Tanush Teodor Valon Veli Visar Vladan Ylli Zameer Zamyr
+	}
+
+	female_names = {
+		Afërdita Arjeta Blerina Blerta Blerte Bolja Bora Bosa Boxia Boša Boža Dardana Diellza Edona Era Fatmire Flutura Jehona Lindita Liridona Lule Luljeta Mirjeta Pranvera Shpresa Shqipe Teuta Tirana Vera Yllka
+	}
+
+	dynasty_of_location_prefix = "dynnp_e"
+
+}

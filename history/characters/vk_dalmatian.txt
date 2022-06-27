@@ -1,0 +1,26 @@
+﻿145120 = {
+	name = "Amphilochios" # D.Dalmatia/C.Zadar
+	dynasty = 101132
+	religion = "orthodox"
+	culture = "dalmatian"
+
+	836.1.1 = {
+		birth = "836.1.1"
+	}
+	896.1.1 = {
+		death = "896.1.1"
+	}
+}
+
+145199 = {
+	name = "Himerios" # C.Split
+	dynasty = 1022176
+	religion = "orthodox"
+	culture = "dalmatian"
+	837.1.1 = {
+		birth = "837.1.1"
+	}
+	893.1.1 = {
+		death = "893.1.1"
+	}
+}

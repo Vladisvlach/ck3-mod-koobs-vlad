@@ -1,0 +1,4 @@
+colors = {
+	# used by cultures and languages
+	arberian = { 0.95 0.2 0.9 }
+}
