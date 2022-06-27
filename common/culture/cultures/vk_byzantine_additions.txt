@@ -8,7 +8,7 @@
 	traditions = {
 		tradition_pastoralists
 		tradition_highland_warriors
-		tradition_hill_dwellers
+		tradition_mountain_homes
 		tradition_byzantine_succession
 		tradition_hussar
 	}
