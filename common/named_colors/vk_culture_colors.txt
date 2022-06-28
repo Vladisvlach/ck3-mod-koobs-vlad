@@ -1,4 +1,5 @@
 colors = {
 	# used by cultures and languages
-	arberian = { 0.95 0.2 0.9 }
+	arberian = { 0.9 0.2 0.4 }
+	crimean_gothic = { 0.7 0.1 0.7 }
 }
