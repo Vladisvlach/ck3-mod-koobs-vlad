@@ -4,13 +4,16 @@
  arberian:0 "Arberian"
  arberian_prefix:0 "Arberano"
  arberian_collective_noun:0 "Arberians"
+ crimean_gothic:0 "Crimean Gothic"
+ crimean_gothic_prefix:0 "Crimean-Gotho"
+ crimean_gothic_collective_noun:0 "Crimean Goths"
  
  #Italian
  dalmatian:0 "Dalmatian"
  dalmatian_prefix:0 "Dalmato"
  dalmatian_collective_noun:0 "Dalmatians"
  
- #TBD
- crimean_gothic:0 "Crimean Gothic"
- crimean_gothic_prefix:0 "Crimean-Gotho"
- crimean_gothic_collective_noun:0 "Crimean Goths"
+ #renamings
+ andalusian:1 "Mozarabic"
+ andalusian_prefix:1 "Mozarabo"
+ andalusian_collective_noun:2 "Mozarabs"

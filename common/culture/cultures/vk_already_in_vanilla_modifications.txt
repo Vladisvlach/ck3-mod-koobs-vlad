@@ -1,0 +1,45 @@
+﻿andalusian = {
+	color = { 0.4 0.6 0.1 }
+	created = 800.1.1
+	parents = { visigothic bedouin }
+
+	ethos = ethos_courtly
+	heritage = heritage_iberian
+	#language = language_arabic
+	language = language_iberian #they spoke Mozarabic / Andalusi Romance, not Arabic, smh PDX
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hit_and_run
+	}
+	
+	dlc_tradition = {
+		trait = tradition_artisans
+		requires_dlc_flag = royal_court
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_malleable_subjects
+		requires_dlc_flag = the_fate_of_iberia
+		fallback = tradition_xenophilic
+	}
+	dlc_tradition = {
+		trait = tradition_fp2_ritualised_friendship
+		requires_dlc_flag = the_fate_of_iberia
+	}
+
+	dlc_tradition = {
+		trait = tradition_fp2_strategy_gamers
+		requires_dlc_flag = the_fate_of_iberia
+	}
+	
+	name_list = name_list_andalusian
+
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { iberian_building_gfx }
+	clothing_gfx = { iberian_muslim_clothing_gfx dde_abbasid_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iberian_muslim_unit_gfx }
+
+	ethnicities = {
+		10 = arab
+		10 = mediterranean
+	}
+}

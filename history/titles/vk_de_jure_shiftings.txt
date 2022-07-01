@@ -1,0 +1,54 @@
+#De jure shifting, Wallachia and Moldavia did not exist before to properly exist de jure, they get instead specific decisions for vlach people to form them
+
+d_muntenia = {
+	867.1.1 = { de_jure_liege = "k_bulgaria" }
+}
+
+d_oltenia = {
+	867.1.1 = { de_jure_liege = "k_bulgaria" }
+}
+
+d_transylvanian_alps = {
+	867.1.1 = { de_jure_liege = "k_bulgaria" }
+}
+
+d_bugeac = {
+	867.1.1 = { de_jure_liege = "k_bulgaria" }
+}
+
+d_moldova = {
+	867.1.1 = { de_jure_liege = "k_bulgaria" }
+}
+
+d_bukovina = {
+	867.1.1 = { de_jure_liege = "k_galicia-volhynia" }
+}
+
+#De Jure Pannonia too big in 867, just right in 1066, gotta adjust that
+
+d_transylvania = {
+	867.1.1 = { de_jure_liege = "k_bulgaria" }
+	1066.1.1 = { de_jure_liege = "k_hungary" }
+}
+
+#Great Moravia Stuff
+d_ungvar = {
+	867.1.1 = { de_jure_liege = "k_moravia" }
+	1066.1.1 = { de_jure_liege = "k_hungary" }
+}
+
+d_gyor = {
+	867.1.1 = { de_jure_liege = "k_moravia" }
+	1066.1.1 = { de_jure_liege = "k_hungary" }
+}
+
+d_somogy = {
+	867.1.1 = { de_jure_liege = "k_moravia" }
+	1066.1.1 = { de_jure_liege = "k_hungary" }
+}
+
+
+#Stay under de jure Serbia, you look ugly de jure under Hungary
+d_syrmia = {
+	1066.1.1 = { de_jure_liege = "k_serbia" }
+}
