@@ -1,0 +1,16 @@
+﻿# Called from code after history generation
+# Empty scope
+
+# Like on_game_start, except it is called once the host (or player, in single player) exits the lobby. Good for anything where you need to know who the players are, or what the game rules are
+on_game_start_after_lobby = {
+	effect = {
+		#Set starting cultural acceptance
+		culture:old_egyptian = {
+			change_cultural_acceptance = {
+				target = culture:egytian
+				value = 75
+				desc = cultural_acceptance_historical_relations
+			}
+		}
+	}
+}

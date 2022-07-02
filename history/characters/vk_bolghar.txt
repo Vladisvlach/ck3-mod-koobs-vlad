@@ -1,0 +1,49 @@
+﻿159123 = {
+	name = "Krum"
+	dynasty = 8636 #Krumic
+	religion = "tengri_pagan"
+	culture = "bolghar"
+	father = 145939
+	trait = ambitious
+	trait = diligent
+	trait = brave
+	trait = just
+	trait = callous
+	trait = wrathful
+	trait = education_martial_4
+
+	750.1.2 = {
+		birth = "750.1.2"
+	}
+	814.1.2 = {
+		death = "814.1.2"
+	}
+}
+
+159124 = {
+	name = "Omortag"
+	dynasty = 8636 #Krumic
+	religion = "tengri_pagan"
+	culture = "bolghar"
+	father = 159123
+	767.1.2 = {
+		birth = "767.1.2"
+	}
+	831.1.2 = {
+		death = "831.1.2"
+	}
+}
+
+159125 = {
+	name = "Malamir"
+	dynasty = 8636 #Krumic
+	religion = "tengri_pagan"
+	culture = "bolghar"
+	father = 159124
+	786.1.2 = {
+		birth = "786.1.2"
+	}
+	836.1.2 = {
+		death = "836.1.2"
+	}
+}

@@ -1,0 +1,276 @@
+#k_egypt
+
+##d_alexandria ###################################
+###c_alexandria
+6053 = {	#ALEXANDRIA
+	culture = greek
+	religion = coptic
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			common_tradeport_02
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			common_tradeport_02
+			orchards_01
+			military_camps_01
+		}
+	}
+}
+6094 = {	#AL-HAMAM
+	holding = none
+}
+6116 = {	#WADI_NATRUN
+	holding = church_holding
+}
+
+###c_sullum
+6097 = {	#SULLUM
+	culture = old_egyptian
+	religion = coptic
+	holding = castle_holding
+}
+6095 = {	#QASR_ASH_SHAMMAS
+	#holding = none
+}
+6096 = {	#KANAIS_AL-HADID
+	holding = church_holding
+}
+
+###c_siwa
+6093 = {	#SIWA	
+	culture = old_egyptian
+	religion = coptic
+	holding = castle_holding
+}
+6092 = {	#AIN_AL-GHANBI
+	holding = none
+}
+6117 = {	#QARA
+	holding = none
+}
+
+##d_delta ###################################
+###c_damietta
+6046 = {	#DUMIYAT
+	culture = old_egyptian
+	religion = coptic
+	holding = castle_holding
+	900.1.1 = {
+		culture = egyptian
+		religion = ashari
+	}
+}
+6043 = {	#DAQAHLA
+	holding = church_holding
+}
+6045 = {	#TINNIS
+	holding = city_holding
+}
+
+###c_al-buhaira
+6052 = {	#RASHID
+	culture = old_egyptian
+	religion = coptic
+	holding = castle_holding
+	900.1.1 = {
+		culture = egyptian
+		religion = ashari
+	}
+}
+6054 = {	#DAMANHUR
+	holding = city_holding
+}
+6055 = {	#RAMSIS
+	#holding = none
+}
+
+###c_al-gharbiya
+6051 = {	#MINUF
+	culture = old_egyptian
+	religion = coptic
+	holding = castle_holding
+	900.1.1 = {
+		culture = egyptian
+		religion = ashari
+	}
+}
+6047 = {	#SAMANNUD
+	holding = none
+}
+6048 = {	#BURULLUS
+	holding = city_holding
+}
+6049 = {	#NASTARAWA
+	holding = church_holding
+}
+6050 = {	#IBYAR
+	#holding = none
+}
+
+###c_sharkiya
+6040 = {	#BILBAYS
+	culture = old_egyptian
+	religion = coptic
+	holding = castle_holding
+	900.1.1 = {
+		culture = egyptian
+		religion = ashari
+	}
+}
+6041 = {	#QALYUB
+	holding = city_holding
+}
+6044 = {	#FAQUS
+	holding = church_holding
+}
+
+##d_cairo ###################################
+
+###c_giza
+6057 = {	#GIZA
+	culture = old_egyptian
+	religion = coptic
+	holding = castle_holding
+	767.1.1 = {
+		special_building = the_pyramids_01
+	}
+	900.1.1 = {
+		culture = egyptian
+		religion = ashari
+	}
+}
+6056 = {	#ABU_GHALIB
+	#holding = none
+}
+6058 = {	#BUSIR
+	#holding = none
+}
+
+###c_fayyum
+6060 = {	#AL-FAYYUM
+	culture = old_egyptian
+	religion = coptic
+	holding = castle_holding
+}
+6059 = {	#TIRSA
+	#holding = none
+}
+6061 = {	#IQNA
+	#holding = none
+}
+
+##d_al-wahat ###################################
+###c_dakhla
+6085 = {	#MUT
+	culture = old_egyptian
+	religion = coptic
+	holding = castle_holding
+}
+6086 = {	#TUNAYDA
+	holding = none
+}
+6087 = {	#AL-QASR-DAKHLA
+	holding = none
+}
+
+###c_kharga
+6083 = {	#KHARGA
+	culture = old_egyptian
+	religion = coptic
+	holding = castle_holding
+}
+6084 = {	#BARIS
+	holding = none
+}
+
+##d_al-said ###################################
+###c_qus
+6077 = {	#QUS
+	culture = old_egyptian #culture = coptic
+	religion = coptic
+	holding = castle_holding
+	1171.1.1 = {
+		culture = egyptian
+		religion = ashari
+	}
+}
+6074 = {	#HUW
+	#holding = none
+}
+6075 = {	#FAW
+	#holding = none
+}
+6076 = {	#QINA
+	holding = church_holding
+}
+6078 = {	#ARMANT
+	#holding = none
+}
+
+###c_bahnasa
+6063 = {	#AL-BAHNASA
+	culture = old_egyptian
+	religion = coptic
+	holding = castle_holding
+	900.1.1 = {
+		culture = egyptian
+		religion = ashari
+	}
+}
+6062 = {	#AHNAS
+	#holding = none
+}
+6064 = {	#IHRIT
+	#holding = none
+}
+
+###c_ushmun
+6067 = {	#AL-USHMUNAIN
+	culture = old_egyptian
+	religion = coptic
+	holding = castle_holding
+	#1171.1.1 = {culture = egyptian religion = ashari}
+}
+6068 = {	#ANSINA
+	#holding = none
+}
+6069 = {	#MANFALUT
+	#holding = none
+}
+
+###c_asyut
+6070 = {	#ASYUT
+	culture = old_egyptian
+	religion = coptic
+	holding = castle_holding
+	#1171.1.1 = { culture = egyptian religion = ashari}
+}
+6071 = {	#BAWIT
+	holding = church_holding
+}
+6072 = {	#IKHMIN
+	holding = city_holding
+}
+6073 = {	#IBSHAYA
+	#holding = none
+}
+
+###c_aswan
+6081 = {	#ASWAN
+	culture = old_egyptian
+	religion = coptic
+	holding = castle_holding
+	#1171.1.1 = { culture = egyptian religion = ashari}
+}
+6079 = {	#UDFU
+	holding = none
+}
+6080 = {	#ZARNIKH
+	holding = none
+}
+6082 = {	#ASWAN-WEST
+	holding = none
+}

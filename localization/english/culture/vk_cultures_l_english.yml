@@ -12,8 +12,8 @@
  dalmatian:0 "Dalmatian"
  dalmatian_prefix:0 "Dalmato"
  dalmatian_collective_noun:0 "Dalmatians"
- 
- #renamings
- andalusian:1 "Mozarabic"
- andalusian_prefix:1 "Mozarabo"
- andalusian_collective_noun:2 "Mozarabs"
+
+ #Kemetic
+ old_egyptian:0 "Old Egyptian"
+ old_egyptian_prefix:0 "Egypto"
+ old_egyptian_collective_noun:0 "Old Egyptians"
