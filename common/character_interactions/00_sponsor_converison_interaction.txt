@@ -1,0 +1,201 @@
+sponsor_conversion_interaction = {
+	category = interaction_category_religion
+
+	special_interaction = sponsor_conversion_interaction #not sure what this does lol
+	desc = sponsor_conversion_desc
+	greeting = positive
+    hidden = yes
+    popup_on_receive = yes
+
+    is_shown = {
+        scope:actor = {
+            is_independent_ruler = yes
+            NOT = {faith = scope:recipient.faith}
+        }
+        scope:recipient = {
+            is_independent_ruler = yes
+            NOT = {faith = {has_doctrine_parameter = unreformed}}
+        }
+    }
+
+	ai_targets = {
+		ai_recipients = neighboring_rulers
+        adult = yes
+    }
+
+	ai_frequency = 12
+
+	is_valid_showing_failures_only = {
+		scope:recipient = {
+            is_imprisoned = no
+        }
+        scope:actor = {
+            is_imprisoned = no
+        }
+        scope:recipient = {is_diplomatically_available = yes}
+        custom_description = {
+            text = "has_declined_mass_conversion"
+            subject = scope:recipient
+            NOT = {
+                scope:actor = {
+                    has_opinion_modifier = {
+                        modifier = refused_sponsored_conversion
+                        target = scope:recipient
+                    }
+                }
+            }
+        }
+	}
+	
+	ai_accept = {
+		base = 50
+		
+        modifier = { # If you continually kill someone's family or plunder their lands, I don't think they will just let you convert to their faith.
+            scope:recipient = {
+                OR = {
+                opinion = {
+                    who = scope:actor
+                    value <= -40
+                }
+                has_relation_rival = scope:actor
+                }
+            }
+			factor = 0
+		}
+
+        modifier = { #Zealous rulers will be happy to spread their faith
+            scope:recipient = {
+                OR = {
+                    has_trait = zealous
+                    ai_zeal >= high_positive_ai_value
+                }
+            }
+            add = 25
+        }
+
+        modifier = { #If you're quite strong, that's good for them. Strong pagans are scary.
+            scope:actor = {
+                troops = {
+                    who = troops
+                    value >= 0.8
+                }
+                add = 25
+            }
+        }
+
+        modifier = { #If you're stronger, they will just convert you.
+            scope:actor = {
+                troops = {
+                    who = troops
+                    value >= 1.5
+                }
+                add = 60
+            }
+        }
+	}
+	
+	ai_min_reply_days = 1
+	ai_max_reply_days = 30
+	
+	on_accept = {
+		scope:actor = {
+            trigger_event = #to make
+            create_alliance = {
+                target = scope:recipient
+                allied_through_owner = scope:actor
+                allied_through_target = scope:recipient
+            }
+        }
+        scope:recipient = {
+            trigger_event = #to make
+        }
+
+	}
+
+	on_decline = {
+		send_interface_toast = {
+			title = sponsor_conversion_decline_notification
+			left_icon = scope:recipient
+		}
+        scope:actor = {
+            add_opinion = {
+                modifier = refused_mass_conversion
+                target = scope:recipient
+                years = 15
+                opinion = -30
+            }
+        }
+	}
+
+	# Use STRONG hook
+	send_option = {
+		is_valid = {
+			scope:actor = {
+				has_strong_usable_hook = scope:recipient
+			}
+			NOT = {
+				scope:recipient = { is_imprisoned_by = scope:actor }
+			}
+		}
+		flag = hook
+		localization = SCHEME_HOOK
+	}
+	should_use_extra_icon = {
+		scope:actor = { has_strong_usable_hook = scope:recipient }
+	}
+	extra_icon = "gfx/interface/icons/character_interactions/hook_icon.dds"
+	send_options_exclusive = no
+
+	
+	ai_potential = {
+		is_adult = yes
+	}
+	
+	ai_will_do = {
+		base = 20
+		modifier = { # The AI will only use a Hook if they couldn't otherwise do this
+			scope:hook = yes
+			add = -1
+		}
+		
+		modifier = { # The AI will try convert it it has low fervor and the other faith has a decent fervor
+			scope:actor = {
+				faith = fervor <= 25
+			}
+            scope:recipient = {
+                faith = fervor >= 50
+            }
+			add = 10
+		}
+
+		modifier = { # Zealous characters do not want conversions
+            factor = 0
+			scope:actor = {
+                OR = {
+				has_trait = zealous
+                ai_zeal >= high_positive_ai_value
+                }
+		    }
+        }
+
+		modifier = { # AI will not ask rulers it hates
+			factor = 0
+			scope:actor = {
+                opinion = {
+                    who = scope:recipient
+                    value <= -40
+                }
+            }
+		}
+
+        modifier = { # The AI will try convert it it is substantially weaker
+            scope:recipient = {
+                troops = {
+                    who = troops
+                    value >= 2.0
+                }
+            }
+			add = 25
+		}
+	}
+}
