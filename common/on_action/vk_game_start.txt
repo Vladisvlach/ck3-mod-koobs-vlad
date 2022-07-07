@@ -5,7 +5,7 @@
 on_game_start_after_lobby = {
 	effect = {
 		#Set starting cultural acceptance
-		culture:old_egyptian = {
+		culture:culture_coptic = {
 			change_cultural_acceptance = {
 				target = culture:egytian
 				value = 75

@@ -47,7 +47,7 @@
 egyptian = {
 	color = { 0.1 0.6 0.1 }
 	created = 800.1.1
-	parents = { bedouin old_egyptian }
+	parents = { bedouin culture_coptic }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_arabic

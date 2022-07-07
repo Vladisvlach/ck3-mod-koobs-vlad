@@ -28,7 +28,7 @@
 
 ###c_sullum
 6097 = {	#SULLUM
-	culture = old_egyptian
+	culture = culture_coptic
 	religion = coptic
 	holding = castle_holding
 }
@@ -41,7 +41,7 @@
 
 ###c_siwa
 6093 = {	#SIWA	
-	culture = old_egyptian
+	culture = culture_coptic
 	religion = coptic
 	holding = castle_holding
 }
@@ -55,7 +55,7 @@
 ##d_delta ###################################
 ###c_damietta
 6046 = {	#DUMIYAT
-	culture = old_egyptian
+	culture = culture_coptic
 	religion = coptic
 	holding = castle_holding
 	900.1.1 = {
@@ -72,7 +72,7 @@
 
 ###c_al-buhaira
 6052 = {	#RASHID
-	culture = old_egyptian
+	culture = culture_coptic
 	religion = coptic
 	holding = castle_holding
 	900.1.1 = {
@@ -89,7 +89,7 @@
 
 ###c_al-gharbiya
 6051 = {	#MINUF
-	culture = old_egyptian
+	culture = culture_coptic
 	religion = coptic
 	holding = castle_holding
 	900.1.1 = {
@@ -112,7 +112,7 @@
 
 ###c_sharkiya
 6040 = {	#BILBAYS
-	culture = old_egyptian
+	culture = culture_coptic
 	religion = coptic
 	holding = castle_holding
 	900.1.1 = {
@@ -131,7 +131,7 @@
 
 ###c_giza
 6057 = {	#GIZA
-	culture = old_egyptian
+	culture = culture_coptic
 	religion = coptic
 	holding = castle_holding
 	767.1.1 = {
@@ -151,7 +151,7 @@
 
 ###c_fayyum
 6060 = {	#AL-FAYYUM
-	culture = old_egyptian
+	culture = culture_coptic
 	religion = coptic
 	holding = castle_holding
 }
@@ -165,7 +165,7 @@
 ##d_al-wahat ###################################
 ###c_dakhla
 6085 = {	#MUT
-	culture = old_egyptian
+	culture = culture_coptic
 	religion = coptic
 	holding = castle_holding
 }
@@ -178,7 +178,7 @@
 
 ###c_kharga
 6083 = {	#KHARGA
-	culture = old_egyptian
+	culture = culture_coptic
 	religion = coptic
 	holding = castle_holding
 }
@@ -189,7 +189,7 @@
 ##d_al-said ###################################
 ###c_qus
 6077 = {	#QUS
-	culture = old_egyptian #culture = coptic
+	culture = culture_coptic #culture = coptic
 	religion = coptic
 	holding = castle_holding
 	1171.1.1 = {
@@ -212,7 +212,7 @@
 
 ###c_bahnasa
 6063 = {	#AL-BAHNASA
-	culture = old_egyptian
+	culture = culture_coptic
 	religion = coptic
 	holding = castle_holding
 	900.1.1 = {
@@ -229,7 +229,7 @@
 
 ###c_ushmun
 6067 = {	#AL-USHMUNAIN
-	culture = old_egyptian
+	culture = culture_coptic
 	religion = coptic
 	holding = castle_holding
 	#1171.1.1 = {culture = egyptian religion = ashari}
@@ -243,7 +243,7 @@
 
 ###c_asyut
 6070 = {	#ASYUT
-	culture = old_egyptian
+	culture = culture_coptic
 	religion = coptic
 	holding = castle_holding
 	#1171.1.1 = { culture = egyptian religion = ashari}
@@ -260,7 +260,7 @@
 
 ###c_aswan
 6081 = {	#ASWAN
-	culture = old_egyptian
+	culture = culture_coptic
 	religion = coptic
 	holding = castle_holding
 	#1171.1.1 = { culture = egyptian religion = ashari}

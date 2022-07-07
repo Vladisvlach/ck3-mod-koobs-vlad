@@ -1,0 +1,16 @@
+name_list_arberian = {
+
+	cadet_dynasty_names = {
+	}
+
+	dynasty_names = {
+	}
+
+	male_names = {
+		"Coptic Man"
+	}
+
+	female_names = {
+		"Coptic Woman"
+	}
+}

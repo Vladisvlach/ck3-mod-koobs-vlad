@@ -17,3 +17,7 @@
  old_egyptian:0 "Old Egyptian"
  old_egyptian_prefix:0 "Egypto"
  old_egyptian_collective_noun:0 "Old Egyptians"
+
+ culture_coptic:0 "Coptic"
+ culture_coptic_prefix:0 "Copto"
+ culture_coptic_collective_noun:0 "Copts"
